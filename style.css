@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+ .box {
+    width: 31%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.05);   
+ }
+
+ .box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: bottom;
+ }
+
+ .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    row-gap: 20px;
+    justify-content: space-between; 
+    
+ }
+
+ .container {
+    padding: 0 4rem
+ }
+
+ .stars i {
+    color: #FF9209;
+}
+.stars {
+    margin: 15px 0 0 10px;
+}
+
+
+ 
+.littlename {
+    font-size: small;
+    color: gray;
+}
+
+.hotelname{
+    margin: 5px 0px 0px 10px;
+}
+
+.hotelname a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.4s ease;
+}
+.hotelname a:hover {
+    color: orange;
+}
+
+
+.price {
+    margin:10px 0 10px 10px
+}
+
+.price h4 {
+    color: gray;
+}
+
+.price span {
+    color: black;
+}
+
+#tower {
+    transition: transform 0.3s ease; 
+}
+.location span {
+    transition: color 0.3s ease;
+}
+
+#tower:hover {
+    transform: scale(1.1); 
+    overflow: hidden;
+}
+
+.location span:hover {
+   color: orange;
+}
